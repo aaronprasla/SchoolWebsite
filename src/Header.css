@@ -1,0 +1,39 @@
+.header {
+	overflow: hidden;
+  	background-color: #1c1c1c;
+  	position: fixed;
+	top: 0;
+  	width: 100%;
+	height: 7.2%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: -10px;
+  display: inline-block;
+  height: inherit;
+}
+
+.hList {
+	list-style-type: none;
+}
+.hA {
+	background-color: maroon;
+	padding: 20px 17px 18px 17px;
+	position: relative;
+	color: white;
+}
+.hA:hover {
+	background-color: white;
+	color: black;
+}
+.overflow {
+	overflow: visible
+}
+.searchForm {
+	justify-self: right;
+}
