@@ -9,11 +9,11 @@ function Main() {
   return (
     <>
 
-      <BrowserRouter basename={"/"}>
+      <BrowserRouter basename={'/${process.env.PUBLIC_URL}'}>
         
           <Header></Header>
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='' element={<Home />} />
           </Routes>
           
       </BrowserRouter>
