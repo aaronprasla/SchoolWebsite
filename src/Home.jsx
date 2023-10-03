@@ -7,9 +7,9 @@ function Home() {
     return (
         <>
 
-                <Gallery />
+            <Gallery />
 
-                <Carousely />
+            <Carousely />
 
         </>
     );

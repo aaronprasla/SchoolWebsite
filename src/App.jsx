@@ -10,12 +10,12 @@ function Main() {
     <>
 
       <BrowserRouter basename={'/${process.env.PUBLIC_URL}'}>
-        
-          <Header></Header>
-          <Routes>
-            <Route path='' element={<Home />} />
-          </Routes>
-          
+
+        <Header></Header>
+        <Routes>
+          <Route path='' element={<Home />} />
+        </Routes>
+
       </BrowserRouter>
 
     </>
