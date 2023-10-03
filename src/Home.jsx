@@ -8,7 +8,6 @@ function Home() {
         <>
 
             <Gallery />
-
             <Carousely />
 
         </>
