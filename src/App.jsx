@@ -9,7 +9,7 @@ function Main() {
   return (
     <>
 
-      <BrowserRouter>
+      <BrowserRouter basename={"/"}>
         
           <Header></Header>
           <Routes>
