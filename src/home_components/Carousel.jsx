@@ -7,7 +7,7 @@ import '/Users/aaron/school-website/src/home_components/Carousel.css'
 
 function Carousely() {
     return (
-        <Stack className='position-absolute top-0 start-50 translate-middle-x' sm={1} style={{ marginTop: '6.5rem' }}>
+        <Stack xs={6} md={4} style={{ marginTop: '6.5rem' }}>
             <Carousel style={{ float: 'top' }} pause='hover'>
                 <Carousel.Item className='bg-red' >
                     <img src={register} className='w-100'></img>
