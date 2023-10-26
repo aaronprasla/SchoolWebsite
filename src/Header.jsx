@@ -7,7 +7,7 @@ function Header() {
 
     return (
       <>
-        <Navbar expand="sm" className='bg-body-tertiary overflow' data-bs-theme='dark' fixed="top">
+        <Navbar expand="md" className='bg-body-tertiary' data-bs-theme='dark' style={{position: 'absolute', width: '100%'}}>
           <Navbar.Brand href="#home" className='ms-3'>
               <img
                 src={jackLogo}
@@ -54,7 +54,7 @@ function Header() {
               <NavDropdown.Item href="#">Learning Links</NavDropdown.Item>
               <NavDropdown.Item href="#">Library Resources Hub</NavDropdown.Item>
               <NavDropdown.Item href="#">myBlueprint</NavDropdown.Item>
-              <NavDropdown.Item href="#">Edsby Parent Portal</NavDropdown.Item>
+              <NavDropdown.Item href="#">Edsby Student Portal</NavDropdown.Item>
               <NavDropdown.Item href="#">School Cash Online</NavDropdown.Item>
             </NavDropdown>
           </Nav>

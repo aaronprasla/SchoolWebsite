@@ -1,0 +1,23 @@
+.column {
+    flex: 1;
+    position: relative;
+    width: 25%;
+}
+
+.column-center {
+    flex: 1;
+    position: relative;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    
+    .column {
+        width: 100%;
+        /* Make columns 100% width on smaller screens */
+    }
+
+    .column-center {
+        width: 100%;
+    }
+}
