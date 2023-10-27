@@ -7,7 +7,7 @@ function Header() {
 
     return (
       <>
-        <Navbar expand="md" className='bg-body-tertiary' data-bs-theme='dark' style={{position: 'absolute', width: '100%'}}>
+        <Navbar expand="md" className='bg-body-tertiary' data-bs-theme='dark' style={{position: 'absolute', width: '100%', marginBottom: '40px'}}>
           <Navbar.Brand href="#home" className='ms-3'>
               <img
                 src={jackLogo}

@@ -11,7 +11,7 @@ function Gallery() {
 		<>
 
 
-			<Card style={{ marginTop: '96px', width: '100%' }} bg='dark' text='white' variant='top'>
+			<Card style={{ width: '100%', position: 'relative' }} bg='dark' text='white' variant='top'>
 				<Card.Img variant="dark" fixed='top' className='w-100' src={cover} />
 				<Card.Body>
 					<Card.Title>School Gallery</Card.Title>
