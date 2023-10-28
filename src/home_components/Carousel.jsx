@@ -1,9 +1,9 @@
 import { React } from 'react'
 import { Card, Button, Stack, CardLink, Col, Carousel, CardGroup } from 'react-bootstrap'
-import Motto from '/Users/aaron/school-website/src/assets/Motto.jpg'
-import register from '/Users/aaron/school-website/src/assets/registerlogo.jpeg'
-import building from '/Users/aaron/school-website/src/assets/buildingmac.jpeg'
-import '/Users/aaron/school-website/src/home_components/Carousel.css'
+import Motto from '../assets/Motto.jpg'
+import register from '../assets/registerlogo.jpeg'
+import building from '../assets/buildingmac.jpeg'
+import './Carousel.css'
 
 function Carousely() {
     return (
@@ -32,8 +32,8 @@ function Carousely() {
 
             </Stack>
 
-            <CardGroup style={{ width: '40rem' }} className='sm-1 md-3'>
-                <Card style={{ width: '18rem' }}>
+            <CardGroup className='sm-1 md-3'>
+                <Card>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
                         <Card.Title>Card title</Card.Title>
@@ -46,7 +46,7 @@ function Carousely() {
                         <small className="text-muted">Last updated 3 mins ago</small>
                     </Card.Footer>
                 </Card>
-                <Card style={{ width: '18rem' }}>
+                <Card>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
                         <Card.Title>Card title</Card.Title>
@@ -59,7 +59,7 @@ function Carousely() {
                         <small className="text-muted">Last updated 3 mins ago</small>
                     </Card.Footer>
                 </Card>
-                <Card style={{ width: '18rem' }}>
+                <Card>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
                         <Card.Title>Card title</Card.Title>

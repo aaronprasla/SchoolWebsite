@@ -1,13 +1,13 @@
 import { useState, React } from 'react'
-import './Header.css'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
-import jackLogo from "/Users/aaron/school-website/src/assets/JackNew1.png" 
+import './Header.css'
+import jackLogo from "./assets/JackNew1.png" 
 
 function Header() {
 
     return (
       <>
-        <Navbar expand="md" className='bg-body-tertiary' data-bs-theme='dark' style={{position: 'absolute', width: '100%', marginBottom: '40px'}}>
+        <Navbar expand="md" className='bg-body-tertiary overflow' data-bs-theme='dark' style={{width: '100%', position: 'fixed', zIndex: '5'}}>
           <Navbar.Brand href="#home" className='ms-3'>
               <img
                 src={jackLogo}
