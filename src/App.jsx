@@ -15,7 +15,7 @@ function Main() {
 
         <Header></Header>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/SchoolWebsite/' element={<Home />} />
           <Route path='/school-events' element={<Calendar />} />
           <Route path='/staff-directory' element={<Staff />} />
         </Routes>
