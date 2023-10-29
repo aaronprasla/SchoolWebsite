@@ -1,5 +1,6 @@
 import { useState, React, useEffect } from 'react'
 import { Card, Button, Stack, CardLink, Col, Carousel, ListGroup } from 'react-bootstrap'
+import './RightGallery.css'
 
 
 function Right() {
@@ -8,7 +9,7 @@ function Right() {
 		<>
 
 
-			<Card style={{ width: '100%', marginTop: '6rem' }} bg='dark' text='white' variant='top'>
+			<Card className='stackS' bg='dark' text='white' variant='top'>
 				<a href="https://sites.google.com/rbe.sk.ca/learningathome/home" target='_blank'>
 					<Card.Img variant="dark" fixed='top' className='w-100' src={'https://jackmackenzie.rbe.sk.ca/sites/www.reginapublicschools.ca/files/assets/images/home_learning.png'} />
 				</a>

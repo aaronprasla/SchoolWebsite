@@ -1,0 +1,11 @@
+.stackS {
+    margin-top: '6rem';
+    margin-bottom: '1rem';
+    width: 100%;
+}
+
+@media (max-width: 786px) {
+    .stackS {
+        margin-top: '0px';
+    }
+}

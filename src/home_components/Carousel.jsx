@@ -8,22 +8,22 @@ import './Carousel.css'
 function Carousely() {
     return (
         <>
-            <Stack style={{ marginTop: '6.07rem', marginBottom: '1rem' }}>
-                <Carousel style={{ float: 'top' }} pause='hover'>
+            <Stack className='stackS' style={{ marginTop: '6.07rem' }}>
+                <Carousel pause='hover'>
                     <Carousel.Item className='bg-red' >
-                        <img src={register} style={{width: '100%'}}></img>
+                        <img src={register} style={{ width: '100%' }}></img>
                         <Carousel.Caption>
                             <h3>Want To Register With Us!</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={Motto} style={{width: '100%'}}></img>
+                        <img src={Motto} style={{ width: '100%' }}></img>
                         <Carousel.Caption>
                             <h3>Our Motto</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={building} style={{width: '100%'}}></img>
+                        <img src={building} style={{ width: '100%' }}></img>
                         <Carousel.Caption>
                             <h3>Building of Jack MacKenzie</h3>
                         </Carousel.Caption>
@@ -32,13 +32,13 @@ function Carousely() {
 
             </Stack>
 
-            <CardGroup className='sm-1 md-3' data-bs-theme="dark" border='light'>
+            <CardGroup className='sm-1 md-3' data-bs-theme="dark" border='light' style={{ marginBottom: '1rem' }}>
                 <Card border='light'>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
                         <Card.Title>News#1</Card.Title>
                         <Card.Text>
-                        Insert news text
+                            Insert news text
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -50,7 +50,7 @@ function Carousely() {
                     <Card.Body>
                         <Card.Title>News#2</Card.Title>
                         <Card.Text>
-                        Insert news text
+                            Insert news text
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
