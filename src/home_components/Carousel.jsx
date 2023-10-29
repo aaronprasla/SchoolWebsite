@@ -8,7 +8,7 @@ import './Carousel.css'
 function Carousely() {
     return (
         <>
-            <Stack style={{ marginTop: '6.07rem' }}>
+            <Stack style={{ marginTop: '6.07rem', marginBottom: '1rem' }}>
                 <Carousel style={{ float: 'top' }} pause='hover'>
                     <Carousel.Item className='bg-red' >
                         <img src={register} style={{width: '100%'}}></img>
@@ -32,45 +32,41 @@ function Carousely() {
 
             </Stack>
 
-            <CardGroup className='sm-1 md-3'>
-                <Card>
+            <CardGroup className='sm-1 md-3' data-bs-theme="dark" border='light'>
+                <Card border='light'>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>News#1</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.
+                        Insert news text
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Date</small>
                     </Card.Footer>
                 </Card>
-                <Card>
+                <Card border='light'>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>News#2</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural lead-in to
-                            additional content.
+                        Insert news text
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Date</small>
                     </Card.Footer>
                 </Card>
-                <Card>
+                <Card border='light'>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>News#3</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in
-                            to additional content. This card has even longer content than the
-                            first to show that equal height action.
+                            Insert news text
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Date</small>
                     </Card.Footer>
                 </Card>
             </CardGroup>
