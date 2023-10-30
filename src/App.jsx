@@ -11,8 +11,6 @@ function Main() {
   return (
     <>
 
-      <BrowserRouter>
-
         <Header></Header>
         <Routes>
           <Route path='/SchoolWebsite/' element={<Home />} />
@@ -20,7 +18,6 @@ function Main() {
           <Route path='/staff-directory' element={<Staff />} />
         </Routes>
 
-      </BrowserRouter>
 
     </>
   )
