@@ -16,6 +16,7 @@ function Main() {
           <Route path='/SchoolWebsite/' element={<Home />} />
           <Route path='/school-events' element={<Calendar />} />
           <Route path='/staff-directory' element={<Staff />} />
+          <Route path='*' element={<Home />} />
         </Routes>
 
 
