@@ -23,7 +23,7 @@ function Header() {
             <NavDropdown title='About Us' expand='false'>
               <NavDropdown.Item target='_blank' href="https://www.reginapublicschools.ca/attendance_boundaries">Attendance Boundaries</NavDropdown.Item>
               <NavDropdown.Item target='_blank' href="https://www.reginapublicschools.ca/registration">Registration</NavDropdown.Item>
-              <NavDropdown.Item href="/staff-directory">Staff Directory</NavDropdown.Item>
+              <NavDropdown.Item href="/SchoolWebsite/staff-directory">Staff Directory</NavDropdown.Item>
               <NavDropdown.Item target='_blank' href="https://www.reginapublicschools.ca/transportation">Transportation</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title='Parents'>
@@ -32,7 +32,7 @@ function Header() {
               <NavDropdown.Item target='_blank' href="https://www.reginapublicschools.ca/schoolcashonline">School Cash Online Info</NavDropdown.Item>
               <NavDropdown.Item target='_blank' href="https://rbe.edsby.com">Edsby Parent Portal</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href='/school-events'>Calendar</Nav.Link>
+            <Nav.Link href='/SchoolWebsite/school-events'>Calendar</Nav.Link>
             <NavDropdown title='Quick Links'>
               <NavDropdown.Item target='_blank' href="https://www.google.ca">Google Apps</NavDropdown.Item>
               <NavDropdown.Item target='_blank' href="http://sms.bookshelf.ebookplus.pearsoncmg.com/ebook/viewerLogin.do">Pearson eText</NavDropdown.Item>
