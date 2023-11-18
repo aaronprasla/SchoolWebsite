@@ -4,22 +4,23 @@ import Header from './Header.jsx'
 import Home from './Home.jsx'
 import Calendar from './CalendarSep.jsx'
 import Staff from './StaffDirectory.jsx'
+import Test from './test.jsx'
 
 function Main() {
 
 
   return (
     <>
-
+      <BrowserRouter>
         <Header></Header>
         <Routes>
-          <Route path='/SchoolWebsite/' element={<Home />} />
-          <Route path='/SchoolWebsite/school-events' element={<Calendar />} />
-          <Route path='/SchoolWebsite/staff-directory' element={<Staff />} />
+          <Route path='/schoolWebsite/test' element={<Test />} />
+          <Route path='/schoolWebsite/school-events' element={<Calendar />} />
+          <Route path='/schoolWebsite/staff-directory' element={<Staff />} />
           <Route path='*' element={<Home />} />
-        </Routes>
+        </Routes>``
 
-
+      </BrowserRouter>
     </>
   )
 }
